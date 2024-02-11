@@ -1,0 +1,102 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.bAdd {
+  background: #3B9EBE;
+  padding: 8px 20px;
+  margin-left: 10px;
+  border-radius: 4px;
+  color: #fff;
+  border: none;
+}
+
+.todoContent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  width: 300px;
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.card {
+  width: 80%;
+  margin: 10px auto;
+  padding: 10px;
+  background-color: #f2f2f2;
+  border-radius: 8px;
+}
+
+.task-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 8px;
+  margin-left: 400px;
+  margin-right: 400px;
+  cursor: pointer;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+.toggle-button {
+  background-color: green;
+  color: #fff;
+  padding: 8px 20px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  margin-right: 8px;
+}
+
+.toggle-button:hover {
+  background-color: green;
+}
+
+.toggle-button.completed {
+  background-color: yellow;
+  color: black;
+}
+
+.revert-button {
+  background: yellow;
+  padding: 8px 20px;
+  border-radius: 4px;
+  color: black;
+  border: none;
+}
+
+.revert-button:hover {
+  background-color: green;
+  color: white;
+}
+
+.delete-button {
+  background: red;
+  padding: 8px 20px;
+  border-radius: 4px;
+  color: white;
+  border: none;
+}
+
+.delete-button:hover {
+  background-color: darkred;
+}
+
+#taskInput {
+  width: 500px;
+  height: 50px;
+  border-radius: 10px;
+  border-color: #3B9EBE;
+  border-style: solid;
+}
